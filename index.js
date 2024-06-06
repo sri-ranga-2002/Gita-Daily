@@ -3,7 +3,7 @@ import slokas from "./slokas.js";
 const app = express();
 const port = 3000;
 const sDate = "2024-06-06";
-const today = new Date("2024-09-23");
+const today = new Date();
 const startDate = new Date(sDate);
 const keys = Object.keys(slokas);
 app.use(express.static("public"));
@@ -28,7 +28,6 @@ function daysBetween(date1, date2) {
         var number = keys[slokaNumber];
     } else {
         var number = (slokaNumber % 108)-1;
-        console.log(number);
         number = keys[number];        
     }
     
