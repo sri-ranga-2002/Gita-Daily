@@ -1,0 +1,12 @@
+{
+  "name": "daily-geetha",
+  "version": "1.0.0",
+  "description": "A website that gives one sloka each day",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sri Ranga",
+  "license": "ISC"
+}

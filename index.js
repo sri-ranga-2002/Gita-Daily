@@ -211,4 +211,6 @@ const slokas = {
 
   "eighteenPointSeventyEight": "<p><strong>yatra yogeśhvaraḥ kṛiṣhṇo<br>yatra pārtho dhanur-dharaḥ<br>tatra śhrīr vijayo bhūtir<br>dhruvā nītir matir mama</strong></p>"
     };
-console.log(slokas.elevenPointFiftyFive);
+
+
+export default slokas;
